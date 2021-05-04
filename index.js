@@ -4,7 +4,7 @@ let randomNum1 = Math.floor(Math.random() * 6) + 1;
 
 let randomDice = "dice" + randomNum1 + ".png";
 
-let randomImgSource = "./images/" + randomDice;
+let randomImgSource = "images/" + randomDice;
 
 let player1 = document.querySelectorAll("img")[0].setAttribute("src", randomImgSource);
 
@@ -14,7 +14,7 @@ let randomNum2 = Math.floor(Math.random() * 6) + 1;
 
 let randomDice2 = "dice" + randomNum2 + ".png";
 
-let randomImgSource2 = "./images/" + randomDice2;
+let randomImgSource2 = "images/" + randomDice2;
 
 let player2 = document.querySelectorAll("img")[1].setAttribute("src", randomImgSource2);
 
