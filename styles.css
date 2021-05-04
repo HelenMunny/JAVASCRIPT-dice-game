@@ -1,0 +1,54 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@700&display=swap');
+
+
+
+body{
+ background-color: wheat;
+}
+.body-container{
+ position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+ font-family: 'Abril Fatface', cursive;
+ font-size: 6rem;
+ text-align: center;
+ color: rgb(19, 155, 155);
+ margin: auto;
+}
+h2{
+ font-family: 'Caveat', cursive;
+ font-size: 2rem;
+}
+.player1{
+ color: rgb(56, 145, 17);
+}
+.player2{
+ color: rgb(13, 15, 134);
+}
+img{
+ max-width: 40vw;
+}
+@media screen and (max-width:992px){
+ h1{
+  font-size: 3rem;
+ }
+}
+.container{
+ display: grid;
+ grid-template-columns:0.7fr 1fr 1fr 0.7fr;
+ text-align: center;
+ column-gap: 15px;
+}
+.child1{
+grid-column-start: 2;
+}
+footer{
+ text-align: center;
+ padding: 2rem;
+ font-size: 1rem;
+ font-weight: bold;
+}
